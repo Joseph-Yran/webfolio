@@ -89,7 +89,7 @@ li{
 .abt1{
     min-height: 60rem;
     color: antiquewhite;
-    background: linear-gradient(to right, whitesmoke, antiquewhite);
+    background: linear-gradient(to right rgba(254, 254, 254, .8), rgba(250, 235, 215, .8)), url(/assets/images/diamantes.jpg);
     background-position: center;
     max-height: 700rem;
     position: relative;
@@ -139,7 +139,7 @@ li{
 }
 .btn {
     background:rgb(26, 44, 44);
-    color: #fff;
+    color: wheat;
     text-transform: uppercase;
     letter-spacing: 1px;
     display: inline-block;
@@ -162,14 +162,14 @@ li{
 }
 
 .btn--theme {
-    background: #7843e9;
-    color: #fff
+    background: azure;
+    color: black;
 }
 
 .btn--theme-inv {
     color: #111;
-    background: #fff;
-    border: 2px solid #7843e9;
+    background: wheat;
+    border: 2px solid #c6c784;
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px)
 }
@@ -197,4 +197,170 @@ li{
     margin-bottom: 3rem;
     position: relative;
     color:rgb(17, 29, 29);
+}
+.heading-sec__main--lt{
+    color: #111;
+    font-weight: 700;
+}
+.heading-sm{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.heading-sec__sub{
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+    color:rgb(23, 36, 36);
+    font-weight: 400;
+    max-width: 80rem;
+    margin: auto;
+    line-height: 1.5;
+}
+.heading-sec__sub--lt{
+    color: #333;
+    font-weight: 700;
+}
+.abt-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8rem;
+}
+.abt-content-title{
+    font-size: xx-large;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+.abtps{
+    font-size: medium;
+    color: rgb(46, 57, 58);
+    max-width: 60rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+.abtskills-title{
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills-sk{
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+    background: wheat;
+    border-radius: 5px;
+    font-weight: 500;
+    color: rgb(36, 35, 35);
+}
+
+@media only screen and (max-width: 56.25em){
+    .sec-pad {
+        padding: 8rem 0;
+    }}
+@media only screen and (max-width: 56.25em){
+    .mb-bg{
+        margin-bottom: 8rem;
+    }}
+@media only screen and (max-width: 56.25em){
+   .proj-row {
+        text-align: center;
+    }}
+@media only screen and (max-width: 56.25em){
+   .proj-row {
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        margin-bottom: 8rem;
+    }}
+@media only screen and (max-width: 56.25em){
+    .proj-row-desc{
+        text-align: center;
+    }}
+@media only screen and (max-width: 37.5em){
+   .proj-row-desc-t {
+        font-size: 2.4rem;
+    }}
+@media only screen and (max-width: 37.5em){
+   .proj-row-desc-c {
+        font-size: 1.7rem;
+    }}
+.proj-row{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+    margin-bottom: 10rem;
+}
+.proj-row-img-cont{
+    overflow: hidden;
+}
+.proj-row-img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+.proj-row-desc{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.proj-row-desc-c{
+    color: rgb(28, 39, 39);
+    max-width: 60rem;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+
+.contact{
+    background: linear-gradient((to right, rgba(254, 254, 254, .8), rgba(250, 235, 215, .8)), url(/assets/images/diamantes.jpg));
+    background-size: cover;
+    background-position: center;
+}
+
+.main-footer{
+    background-color:rgb(59, 68, 80);
+    color: aliceblue;
+}
+@media only screen and (max-width: 37.5em){
+    .main-footer__upper{
+         display: block;;
+     }}
+@media only screen and (max-width: 56.25em){
+    .main-footer__upper{
+        padding: 5rem 0;
+    }}
+.main-footer__upper{
+    display: flex;
+    justify-content: space-between;
+    padding: 8rem 0;
+}
+@media only screen and (max-width: 56.25em){
+    .main-footer-u-r1. {
+    margin-bottom: 5rem;
+     }}
+.main-footer-u-r1{
+    order: 2;
+}
+.main-footeru-r2{
+    margin-top: 2rem;
+}
+.main-footer-img{
+    margin-right: 1rem;
+    width: 2.5rem;
+}
+@media only screen and (max-width: 56.25em){
+    .main-footer__lower {
+        padding: 3.5rem 0;
+     }}
+.main-footer__lower{
+    border-top: 1px solid #3a3641;
+    color: aliceblue;
+    font-size: medium;
+    text-align: center;
 }
