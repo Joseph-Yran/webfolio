@@ -89,7 +89,7 @@ li{
 .abt1{
     min-height: 60rem;
     color: antiquewhite;
-    background: linear-gradient(to right, rgba(254, 254, 254, .8), rgba(250, 235, 215, .8)), url("https://github.com/Joseph-Yran/webfolio/blob/main/assets/images/waves.jpg");
+    background: linear-gradient(to right, rgba(254, 254, 254, .8), rgba(250, 235, 215, .8)), url("../images/diamantes.JPG");
     background-position: center;
     max-height: 700rem;
     position: relative;
@@ -318,7 +318,7 @@ li{
 }
 
 .contact{
-    background: linear-gradient(to right, rgba(254, 254, 254, .8), rgba(250, 235, 215, .8)), url("https://github.com/Joseph-Yran/webfolio/blob/main/assets/images/waves.jpg");
+    background: linear-gradient(to right, rgba(254, 254, 254, .8), rgba(250, 235, 215, .8)), url("./images/diamantes.JPG");
     background-size: cover;
     background-position: center;
 }
