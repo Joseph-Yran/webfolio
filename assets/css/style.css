@@ -1,0 +1,12 @@
+body{
+    margin:0;
+    background-color: rgb(255, 255, 255);
+}
+
+.introlayer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+}
